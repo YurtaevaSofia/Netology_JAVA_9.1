@@ -5,4 +5,5 @@ public class Comment {
     int commentAuthorID;
     int commentDate;
     String commentText;
+    int count;
 }
