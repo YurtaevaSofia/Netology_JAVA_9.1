@@ -5,44 +5,44 @@ import java.util.Date;
 
 public class WallPost {
 
-    private int postID;
-    private int authorID;
+    private int postId;
+    private int authorId;
     private int date;
     private String name;
     private String text;
-    private Comment [] comments;
-    private Like [] likes;
-    private Repost [] reposts;
+    private Comment comments;
+    private Like likes;
+    private Repost reposts;
 
-    private int ownerID;
-    private int administratorID;
-    private int replyOwnerID;
-    private int replyPostID;
+    private int ownerId;
+    private int administratorId;
+    private int replyOwnerId;
+    private int replyPostId;
     private int friendsOnly;
     private String postType;
-    private ArrayList<Object> attachments;
-    private int signerID;
+    private int signerId;
     private boolean canPin;
     private boolean canDelete;
     private boolean canEdit;
     private boolean isPinned;
     private boolean markedAsAds;
     private boolean isFavorite;
+    private Geo geo;
 
     public int getPostID() {
-        return postID;
+        return postId;
     }
 
-    public void setPostID(int postID) {
-        this.postID = postID;
+    public void setPostID(int postId) {
+        this.postId = postId;
     }
 
-    public int getAuthorID() {
-        return authorID;
+    public int getAuthorId() {
+        return authorId;
     }
 
-    public void setAuthorID(int authorID) {
-        this.authorID = authorID;
+    public void setAuthorId(int authorId) {
+        this.authorId = authorId;
     }
 
     public int getDate() {
@@ -69,60 +69,60 @@ public class WallPost {
         this.text = text;
     }
 
-    public Comment[] getComments() {
+    public Comment getComments() {
         return comments;
     }
 
-    public void setComments(Comment[] comments) {
+    public void setComments(Comment comments) {
         this.comments = comments;
     }
 
-    public Like[] getLikes() {
+    public Like getLikes() {
         return likes;
     }
 
-    public void setLikes(Like[] likes) {
+    public void setLikes(Like likes) {
         this.likes = likes;
     }
 
-    public Repost[] getReposts() {
+    public Repost getReposts() {
         return reposts;
     }
 
-    public void setReposts(Repost[] reposts) {
+    public void setReposts(Repost reposts) {
         this.reposts = reposts;
     }
 
-    public int getOwnerID() {
-        return ownerID;
+    public int getOwnerId() {
+        return ownerId;
     }
 
-    public void setOwnerID(int ownerID) {
-        this.ownerID = ownerID;
+    public void setOwnerId(int ownerId) {
+        this.ownerId = ownerId;
     }
 
-    public int getAdministratorID() {
-        return administratorID;
+    public int getAdministratorId() {
+        return administratorId;
     }
 
-    public void setAdministratorID(int administratorID) {
-        this.administratorID = administratorID;
+    public void setAdministratorId(int administratorId) {
+        this.administratorId = administratorId;
     }
 
-    public int getReplyOwnerID() {
-        return replyOwnerID;
+    public int getReplyOwnerId() {
+        return replyOwnerId;
     }
 
-    public void setReplyOwnerID(int replyOwnerID) {
-        this.replyOwnerID = replyOwnerID;
+    public void setReplyOwnerId(int replyOwnerId) {
+        this.replyOwnerId = replyOwnerId;
     }
 
-    public int getReplyPostID() {
-        return replyPostID;
+    public int getReplyPostId() {
+        return replyPostId;
     }
 
-    public void setReplyPostID(int replyPostID) {
-        this.replyPostID = replyPostID;
+    public void setReplyPostId(int replyPostId) {
+        this.replyPostId = replyPostId;
     }
 
     public int getFriendsOnly() {
@@ -141,20 +141,13 @@ public class WallPost {
         this.postType = postType;
     }
 
-    public ArrayList<Object> getAttachments() {
-        return attachments;
+
+    public int getSignerId() {
+        return signerId;
     }
 
-    public void setAttachments(ArrayList<Object> attachments) {
-        this.attachments = attachments;
-    }
-
-    public int getSignerID() {
-        return signerID;
-    }
-
-    public void setSignerID(int signerID) {
-        this.signerID = signerID;
+    public void setSignerId(int signerId) {
+        this.signerId = signerId;
     }
 
     public boolean isCanPin() {
@@ -213,6 +206,5 @@ public class WallPost {
         this.geo = geo;
     }
 
-    private Geo geo;
 
 }

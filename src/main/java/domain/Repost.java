@@ -1,24 +1,24 @@
 package domain;
 
 public class Repost {
-    private int repostID;
-    private int repostAuthorID;
+    private int repostId;
+    private int repostAuthorId;
     private int count;
 
-    public int getRepostID() {
-        return repostID;
+    public int getRepostId() {
+        return repostId;
     }
 
-    public void setRepostID(int repostID) {
-        this.repostID = repostID;
+    public void setRepostId(int repostId) {
+        this.repostId = repostId;
     }
 
-    public int getRepostAuthorID() {
-        return repostAuthorID;
+    public int getRepostAuthorId() {
+        return repostAuthorId;
     }
 
-    public void setRepostAuthorID(int repostAuthorID) {
-        this.repostAuthorID = repostAuthorID;
+    public void setRepostAuthorId(int repostAuthorId) {
+        this.repostAuthorId = repostAuthorId;
     }
 
     public int getCount() {

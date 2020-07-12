@@ -1,24 +1,24 @@
 package domain;
 
 public class Like {
-    private int likeID;
-    private int likeAuthorID;
+    private int likeId;
+    private int likeAuthorId;
     private int count;
 
-    public int getLikeID() {
-        return likeID;
+    public int getLikeId() {
+        return likeId;
     }
 
-    public void setLikeID(int likeID) {
-        this.likeID = likeID;
+    public void setLikeId(int likeId) {
+        this.likeId = likeId;
     }
 
-    public int getLikeAuthorID() {
-        return likeAuthorID;
+    public int getLikeAuthorId() {
+        return likeAuthorId;
     }
 
-    public void setLikeAuthorID(int likeAuthorID) {
-        this.likeAuthorID = likeAuthorID;
+    public void setLikeAuthorId(int likeAuthorId) {
+        this.likeAuthorId = likeAuthorId;
     }
 
     public int getCount() {

@@ -2,7 +2,7 @@ package domain;
 
 public class Place {
 
-    private int placeID;
+    private int placeId;
     private String placeTitle;
     private int latitude;
     private int longitude;
@@ -11,12 +11,12 @@ public class Place {
     private String country;
     private String city;
 
-    public int getPlaceID() {
-        return placeID;
+    public int getPlaceId() {
+        return placeId;
     }
 
-    public void setPlaceID(int placeID) {
-        this.placeID = placeID;
+    public void setPlaceId(int placeId) {
+        this.placeId = placeId;
     }
 
     public String getPlaceTitle() {

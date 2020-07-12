@@ -1,26 +1,26 @@
 package domain;
 
 public class Comment {
-    private int commentID;
-    private int commentAuthorID;
+    private int commentId;
+    private int commentAuthorId;
     private int commentDate;
     private String commentText;
     private int count;
 
-    public int getCommentID() {
-        return commentID;
+    public int getCommentId() {
+        return commentId;
     }
 
-    public void setCommentID(int commentID) {
-        this.commentID = commentID;
+    public void setCommentId(int commentId) {
+        this.commentId = commentId;
     }
 
-    public int getCommentAuthorID() {
-        return commentAuthorID;
+    public int getCommentAuthorId() {
+        return commentAuthorId;
     }
 
-    public void setCommentAuthorID(int commentAuthorID) {
-        this.commentAuthorID = commentAuthorID;
+    public void setCommentAuthorId(int commentAuthorId) {
+        this.commentAuthorId = commentAuthorId;
     }
 
     public int getCommentDate() {

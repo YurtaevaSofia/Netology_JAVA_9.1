@@ -4,19 +4,15 @@ import domain.WallPost;
 
 public class PostManager {
 
-    int ownerID;
-    String domain;
-    String query;
-    Boolean ownersOnly;
-    int count;
-    int offsetresults;
 
-    public WallPost[] search() {
+    public WallPost[] search(int ownerId, String domain, String query, Boolean ownersOnly, int count, int offsetresults) {
+
         //ToDo: add logic
         return null;
     }
 
-    public void delete(){
+    public void delete(int ownerId, String domain, String query, Boolean ownersOnly, int count, int offsetresults){
+
         //ToDo: add logic
     }
 }
